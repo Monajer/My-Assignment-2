@@ -12,23 +12,21 @@ body {
 /* POPULAR TOURS */
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
   .section-popular-tours {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
   }
 }
 
 /* DESTINATION */
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
   .section-destination {
-    padding-bottom: 100px;
+    height: 100%;
+    width: 50%;
     .section-gallery {
       margin-top: 48px;
       display: grid;
@@ -40,18 +38,16 @@ body {
 
 /* WHY CHOOSE US */
 @media screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
   .section-choose-us {
     padding-bottom: 100px;
+    text-align: left;
   
     .section-services {
       margin-top: 48px;
       display: flex;
       flex-direction: column;
       gap: 24px;
-      justify-content: center;
+      justify-content: left;
     }
   }  
 }
@@ -59,9 +55,6 @@ body {
 /* DEALS AND DISCOUNT */
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
   .section-deals {
     width: 100%;
   }
@@ -70,9 +63,6 @@ body {
 /* PERFECT PLACE */
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
     .section-perfect-place {
       padding-bottom: 100px;
       display: grid;
@@ -85,9 +75,6 @@ body {
 /* NEWS LETTER */
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
   .section-news-letter {
     flex-direction: column;
     .section-banner {
@@ -126,14 +113,20 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
   .footer-section {
     width: 100%;
     height: 100%;
     margin-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .iconsocial {
+    padding-bottom: 20px;
+  }
+  .rights {
+    margin-top: 0;
+    p {
+      padding-top: 0;
+    }
   }
 }
