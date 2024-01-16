@@ -123,7 +123,7 @@ h2 {
 .section-hero {
   position: relative;
   height: 500px;
-  background-image: url('Images/Group 13 (1) (1).png');
+  background-image: url('../Images/Group 13 (1) (1).png');
 
   .section-hero-gradient {
     position: absolute;
@@ -428,14 +428,14 @@ h2 {
     }
 
     .item-1 {
-      background-image: url('Images/pool.png');
+      background-image: url('../Images/pool.png');
       justify-content: end;
     }
     .item-2 {
-      background-image: url('Images/pool-2.png');
+      background-image: url('../Images/pool-2.png');
     }
     .item-3 {
-      background-image: url('Images/pool.png');
+      background-image: url('../Images/pool.png');
       justify-content: end;
     }
   }
