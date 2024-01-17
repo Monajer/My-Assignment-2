@@ -29,7 +29,7 @@ h2 {
 
 /* CONTAINER */
 .container {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -88,18 +88,15 @@ h2 {
     align-items: center;
     .logo-name {
       color: #131318;
-      font-size: 36px;
       font-weight: 800;
     }
     .logo-name-special-color {
       color: #ff5400;
-      font-size: 36px;
-      font-weight: 800;
     }
   }
   .hero-travel-menu {
     width: 50%;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     a {
       text-decoration: none;
@@ -124,6 +121,7 @@ h2 {
   position: relative;
   height: 500px;
   background-image: url('../Images/Group 13 (1) (1).png');
+  border-radius: 16px;
 
   .section-hero-gradient {
     border-radius: 10px;
@@ -589,9 +587,6 @@ h2 {
   height: 500px;
 }
 
-/* -------------------------------------------------------------------------- */
-/*                                 SECTIONS END                               */
-/* -------------------------------------------------------------------------- */
 
 /* FOOTER */
 
@@ -624,7 +619,7 @@ h2 {
     }
   }
 
-  p {
+  .p {
     padding-top: 15px;
     padding-bottom: 33px;
   }
@@ -638,6 +633,152 @@ h2 {
   }
 }
 
+
 /* -------------------------------------------------------------------------- */
-/*                                     FOOTER                                 */
+/*                                 SECTIONS END                               */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 RESPONSIVE                                 */
+/* -------------------------------------------------------------------------- */
+
+/* NAV SECTION */
+
+@media screen and (max-width: 576px) {
+  .hero-travel-menu {
+    width: 50%;
+    justify-content: space-between;
+    display: none;
+  }
+  .container {
+    padding: 0px 20px;
+  }
+  .hero-travel-logo {
+    .logo-name {
+      font-size: 21.543px;
+    }
+    img {
+      width: 28.724px;
+      height: 33.516px;
+    }
+  }
+}
+/* BREAK POINT */
+@media screen and (min-width: 992px) {
+  .hero-travel-menu {
+    display: flex;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .container {
+    width: 1170px;
+  }
+  .logo-name {
+    font-size: 36px;
+  }
+}
+
+
+
+/* POPULAR TOURS */
+
+@media screen and (max-width: 576px) {
+  .section-popular-tours {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+  }
+}
+
+/* DESTINATION */
+
+@media screen and (max-width: 576px) {
+  .section-destination {
+    height: 100%;
+    width: 50%;
+    .section-gallery {
+      margin-top: 48px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+}
+
+/* WHY CHOOSE US */
+@media screen and (max-width: 576px) {
+  .section-choose-us {
+    padding-bottom: 100px;
+    text-align: left;
+  
+    .section-services {
+      margin-top: 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      justify-content: left;
+    }
+  }  
+}
+
+/* DEALS AND DISCOUNT */
+
+@media screen and (max-width: 576px) {
+  .section-deals {
+    width: 100%;
+  }
+}
+
+/* PERFECT PLACE */
+
+@media screen and (max-width: 576px) {
+    .section-perfect-place {
+      padding-bottom: 100px;
+      display: grid;
+      gap: 28px;
+      grid-template-columns: 1fr;
+      align-items: center;
+  }
+}
+
+/* NEWS LETTER */
+
+@media screen and (max-width: 576px) {
+  .section-news-letter {
+    width: 375px;
+    height: 7429px;
+    flex-direction: column;
+    .section-banner {
+      position: relative;
+      flex-grow: 1;
+    }
+  }
+}
+/* FOOTER */
+
+@media screen and (max-width: 576px) {
+  .footer-section {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .icons-social {
+    padding-bottom: 20px;
+  }
+  .rights {
+    margin-top: 0;
+    p {
+      padding-top: 0;
+    }
+  }
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*!                             I'm Trying My Best                            */
 /* -------------------------------------------------------------------------- */
